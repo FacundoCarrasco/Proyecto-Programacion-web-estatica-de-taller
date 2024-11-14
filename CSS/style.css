@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.til {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.til h1 {
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.til p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.seccion {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.de, .educacion-dato, .projecto {
+    margin-bottom: 20px;
+}
+
+.de h3, .educacion-dato h3, .projecto h3 {
+    font-size: 20px;
+    color: #34495e;
+}
+
+.de p, .educacion-dato p, .projecto p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.habilidades li {
+    background-color: #ecf0f1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.projectos p, .referencias p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.projectos p strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
